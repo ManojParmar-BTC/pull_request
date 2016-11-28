@@ -1,5 +1,6 @@
 class PullRequestsController < ApplicationController
   unloadable
+  skip_before_action :verify_authenticity_token, only: [:github_hook]
 
   def index
     @project = Project.find(params[:project_id])
