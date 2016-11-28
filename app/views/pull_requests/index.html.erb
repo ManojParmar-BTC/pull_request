@@ -3,7 +3,6 @@
   <table class="list issues sort-by-id sort-asc">
     <thead>
       <tr>
-        <th>ID</th>
         <th>Title</th>
         <th>Id on Github</th>
         <th>No on Github</th>
@@ -15,7 +14,6 @@
     <tbody>
       <% @pull_requests.each do |pull_request| %>
         <tr>
-          <td><%= pull_request.id%></td>
           <td><%= pull_request.title%></td>
           <td><%= pull_request.git_id%></td>
           <td><%= pull_request.no%></td>

@@ -3,8 +3,8 @@ Redmine::Plugin.register :pull_request do
   author 'Manoj parmar'
   description 'This is a plugin for displaying pull requests'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/ManojParmar-BTC/pull_request'
+  author_url 'https://github.com/ManojParmar-BTC'
 
 end
 
